@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.left-panel {
+    background-color: #1e2f58;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.right-panel {
+    background-color: #e4e4e4;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .left-panel, .right-panel {
+        min-height: auto;
+        padding: 1rem;
+    }
+
+    .logo-principal {
+        width: 150px;
+    }
+}
+
+.btn-warning {
+    border-radius: 12px;
+    font-size: 1rem;
+}
+
+#contenido-servicio ul {
+    padding-left: 1.2rem;
+}
+
+#contenido-servicio li {
+    margin-bottom: 0.5rem;
+}
+
+
+#contenido-profesionales .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(19, 20, 109, 0.1);
+}
+
+#contenido-profesionales .form-check {
+    margin-bottom: 0.5rem;
+}
+
+#contenido-profesionales .form-check-input {
+    margin-top: 0.25rem;
+}
+
+#contenido-profesionales .btn-outline-warning {
+    border-radius: 12px;
+}
+
+
+#formulario-contacto .form-control, 
+#formulario-contacto .form-select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#formulario-contacto .form-label {
+    font-weight: 500;
+}
+
+#formulario-contacto textarea {
+    min-height: 120px;
+}
+
+#formulario-contacto {
+    background-color: #f8f9fa;
+}
+
+#formulario-contacto .form-control, 
+#formulario-contacto .form-select {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+
+#formulario-contacto .form-label {
+    font-weight: 600;
+    color: #0f1d3d;
+}
+
+#formulario-contacto textarea {
+    min-height: 120px;
+}
+
+#formulario-contacto .btn-warning {
+    background-color: #ffc107;
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+#formulario-contacto .btn-warning:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
+
+
+#formulario-contacto .col-md-4 {
+    padding: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    #formulario-contacto .col-md-4 {
+        padding: 1.5rem;
+    }
+    
+    #formulario-contacto .col-md-4 img {
+        width: 100px !important;
+    }
+}
+
+/* En styles.css */
+#contenido-servicio .bg-dark,
+#contenido-profesionales .bg-dark,
+#formulario-contacto .bg-dark {
+    background-color: #1e2f58 !important;
+}
